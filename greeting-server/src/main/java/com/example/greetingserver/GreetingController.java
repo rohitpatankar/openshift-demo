@@ -9,7 +9,7 @@ public class GreetingController {
 	
 	@RequestMapping("greetings/{username}")
 	String greetings(@PathVariable("username") String username) {
-		return String.format("Hello World V1 %s!\n", username);
+		return String.format("Hello World V2 %s!\n", username);
 	}
 
 }
